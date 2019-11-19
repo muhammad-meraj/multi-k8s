@@ -20,3 +20,4 @@ after_success:
   - docker push meraj90/multi-nginx
   - docker push meraj90/multi-server
   - docker push meraj90/multi-worker
+  
