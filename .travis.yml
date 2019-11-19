@@ -15,7 +15,7 @@ after_success:
   - docker build -t meraj90/multi-worker ./worker
   # Login to Docker Hub
   - echo "$DOCKER_PASSWORD" || docker login -u "$DOCKER_ID" --password-stdin
-  # Push the images to DockerHub
+  # Push the images to Docker Hub
   - docker push meraj90/multi-client
   - docker push meraj90/multi-nginx
   - docker push meraj90/multi-server
