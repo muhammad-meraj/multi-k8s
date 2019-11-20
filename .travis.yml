@@ -22,7 +22,6 @@ after_success:
   - docker push meraj90/multi-client
 
 deploy:
-  edge: true
   provider: elasticbeanstalk
   region: us-east-2
   app: multi-docker
